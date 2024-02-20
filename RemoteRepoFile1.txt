@@ -1,0 +1,4 @@
+1.	Create a new repository, “Assignments” on GitHub. Note and copy the repository path
+2.	Got to working repo and create a new folder by above GitHub repository name as, “Assignments” >> go to the “Assignments” folder and open Create Bash 
+3.	Enter command, git clone <copy paste the repository path noted in step1>
+4.	Go to working repo and verify “.git” folder created under the “Assignments” folder
