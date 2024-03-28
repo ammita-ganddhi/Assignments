@@ -22,6 +22,12 @@ class Test1 {
         System.out.println(i);
 
 
+        int k = 10;
+        int j = k++ + ++k;                 // 10 + 12
+        System.out.println(k); //12
+        System.out.println(j); //22
+
+
     }
 }
 
