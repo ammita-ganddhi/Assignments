@@ -28,6 +28,16 @@ class Test1 {
         System.out.println(j); //22
 
 
+       // Solve below issue
+
+        int i1 = 10;
+        int j1 = 7;
+        double db1 = i1/j1;
+        double db2 = (double)i1/j1;
+        double db3 = i1/(double)j1;
+        System.out.println(db1);
+        System.out.println(db2);
+        System.out.println(db3);
     }
 }
 
