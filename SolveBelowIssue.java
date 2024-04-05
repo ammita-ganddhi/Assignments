@@ -34,5 +34,11 @@ public class SolveBelowIssue {
         System.out.println(x>>>30); // output: 3
         System.out.println(x>>>32);  // output: -10
 
+        byte b1 = 10;
+        System.out.println(b1>>1);  // output 5
+        System.out.println(b1<<1); // output: 20
+        System.out.println(b1>>>1);  // output: 5
+
+
     }
 }
