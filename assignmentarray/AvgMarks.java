@@ -50,3 +50,17 @@ private static double calclassavg(int[][] mark){
         return (double) totalsumofmarks / (mark.length * totalsubs);
 }
 }
+
+/*
+Enter the number of students in a class: 2
+Enter the number of subjects: 2
+Let's enter subject-wise marks for student1:
+Subject1: 100
+Subject2: 90
+Let's enter subject-wise marks for student2:
+Subject1: 50
+Subject2: 75
+The Average marks of Student1:95.0
+The Average marks of Student2:62.5
+The over all average marks of the class is:78.75
+*/
