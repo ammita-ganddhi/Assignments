@@ -18,15 +18,35 @@ public class AvgMarks {
                     System.out.println("Let's enter subject-wise marks for student"+ (i+1)+":");
                     for(int j=0; j< numsub; j++)
                         {
-                            System.out.println("Subject"+ (j + 1) + ": ");
+                            System.out.print("Subject"+ (j + 1) + ": ");
 
                             mark[i][j] = s.nextInt();
                          }
 
                 }
 
-        double avg, sum;
-        avg = numsub / numstu;
+      for(int i=0; i<numstu; i++){
+          int sum=0;
+          for(int j=0; j<numsub; j++){
+              sum+= mark[i][j];
+          }
+         double avg = (double) sum / numsub;
+          System.out.println("The Average marks of Student"+ (i+1)+":" + avg);
+      }
+      double classavg = calclassavg(mark);
+        System.out.println("The over all average marks of the class is:" + classavg );
+        s.close();
     }
-
+private static double calclassavg(int[][] mark){
+        int totalsumofmarks = 0;
+        int totalsubs = mark[0].length;
+        for( int[] stumarks: mark){
+            int sum = 0;
+            for( int mak: stumarks){
+                sum += mak;
+            }
+            totalsumofmarks += sum;
+        }
+        return (double) totalsumofmarks / (mark.length * totalsubs);
+}
 }
