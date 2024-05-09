@@ -9,7 +9,8 @@ public class MinYearDay {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the minutes: ");
 
-        while (true) {
+        while (true)
+        {
             if (s.hasNextLong()) {
                 long min = s.nextLong();
                 if (min > 0) {

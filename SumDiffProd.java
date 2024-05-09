@@ -9,8 +9,9 @@ public class SumDiffProd {
         System.out.print("Enter first number: ");
         try{
         num1 = s.nextFloat();
+
         } catch (Exception e){
-           // System.out.println("It seems you are trying to enter some different data, so provide again");
+            System.out.println("It seems you are trying to enter some different data, so provide again");
          String b1 = s.next();
          if(b1.contains("/")){
             String n = b1.split("/")[0];
@@ -26,7 +27,7 @@ public class SumDiffProd {
         try{
             num2 = s.nextFloat();
         } catch (Exception e){
-           // System.out.println("It seems you are trying to enter some different data, so provide again");
+          //  System.out.println("It seems you are trying to enter some different data, so provide again");
             String b1 = s.next();
             if(b1.contains("/")){
                 String n = b1.split("/")[0];
