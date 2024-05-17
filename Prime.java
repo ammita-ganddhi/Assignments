@@ -16,11 +16,9 @@ public class Prime {
             }
             if (flag == 1) {
                 System.out.println("Prime Number");
-            } else {
+            } else{
                 System.out.println("Not a Prime Number");
             }
         }
     }
-
-
 }
