@@ -19,15 +19,16 @@ public class SecondConv {
                     System.out.println(hours + " HOURS");
                     System.out.println(minutes + " MINUTES");
                     System.out.println(result_second + " SECONDS");
+                    break;
                 } else {
                     System.out.println("Invalid Entry!. Enter non-negative entry for Seconds");
-
+                    //s.next();
                 }
             } else {
                 System.out.println("Invalid input please enter valid");
-
+               s.next();
             }
-            s.next();
+
         }
     }
 
