@@ -33,3 +33,19 @@ public class SecondConv {
     }
 
     }
+
+
+    /*
+    "C:\Program Files\Java\jdk-11\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=55415:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\ammit\IdeaProjects\Assignments\out\production\Assignments operator.SecondConv
+Enter the seconds to be converted:
+lmn
+Invalid input please enter valid
+-99
+Invalid Entry!. Enter non-negative entry for Seconds
+82399
+22 HOURS
+53 MINUTES
+19 SECONDS
+
+Process finished with exit code 0
+     */
