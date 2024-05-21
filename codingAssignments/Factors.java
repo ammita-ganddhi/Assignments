@@ -18,3 +18,11 @@ public class Factors {
        }
     }
 }
+
+/* OUTPUT:
+
+"C:\Program Files\Java\jdk-11\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=59858:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\ammit\IdeaProjects\Assignments\out\production\Assignments codingAssignments.Factors
+Enter the number: 24
+Factors :1 2 3 4 6 8 12 24
+Process finished with exit code 0
+*/
