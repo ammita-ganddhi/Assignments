@@ -19,3 +19,11 @@ public class ReverseNumber {
        }
 
 }
+
+/*
+* "C:\Program Files\Java\jdk-11\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=57553:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\ammit\IdeaProjects\Assignments\out\production\Assignments codingAssignments.ReverseNumber
+Enter a number :
+102
+Reverse of the given number is: 201
+
+Process finished with exit code 0*/
