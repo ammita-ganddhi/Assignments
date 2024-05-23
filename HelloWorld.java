@@ -7,6 +7,19 @@ public class HelloWorld {
         }else {
             System.out.print("Welcome");
         }
-        System.out.print("Log" +x+ ":" +y);
+        System.out.println("Log " +x+ ":" +y);
+
+        int j = 10 * 4 + 2;
+        System.out.println(j);
+
+        int k = 10 + 4 * 2;
+        System.out.println(k);
+
+        int m = 10 + 4 * 2 % 2;
+        System.out.println(m);
+
+        int g = 10 / 5 * 6 / 2;
+        System.out.println(g);
+
     }
 }
