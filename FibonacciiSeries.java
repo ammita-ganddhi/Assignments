@@ -21,3 +21,9 @@ public class FibonacciiSeries
         }
     }
 }
+
+/*"C:\Program Files\Java\jdk-11\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=63327:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\ammit\IdeaProjects\Assignments\out\production\Assignments FibonacciiSeries
+Enter value of Fibonaccii number:18
+Fibonacci Series is as follows:0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
+Process finished with exit code 0
+*/
