@@ -30,3 +30,12 @@ public class SumOfDigit {
 
     }
 }
+
+/*
+* "C:\Program Files\Java\jdk-11\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=60093:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\ammit\IdeaProjects\Assignments\out\production\Assignments codingAssignments.SumOfDigit
+Enter a number
+8888
+Sum Of All The Digits Of The Number Is : 32
+
+Process finished with exit code 0
+* */
