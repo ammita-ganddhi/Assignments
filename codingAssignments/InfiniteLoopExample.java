@@ -21,7 +21,7 @@ public class InfiniteLoopExample {
 
         do {                //This do-while loop will execute infinitely as the condition is already false initially
             System.out.println("Infinite Do-while loop");
-        }while (num1 <=5)
+        }while (num1 <=5);
     }
 }
 
