@@ -23,6 +23,14 @@ public class StarPattern {
             }
             System.out.println();
         }
+            System.out.println("---------------Pattern 3 ---------------");
+        int rw1 = 5;  // define no. of Rows
+        for (int i = rw1; i >= 1; i--) {   // to control the no. of rows
+            for (int j = 1; j <= i; j++) {  // to control the no. of column to print space
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
         System.out.println("---------------Pattern 5 ---------------");
         int rw = 5;  // define no. of Rows
         for (int i = 1; i <= rw; i++) {   // to control the no. of rows
@@ -35,9 +43,7 @@ public class StarPattern {
             System.out.println();
         }
     }
-    }
-
-
+}
 
 /* Output Pattern 1:
 
