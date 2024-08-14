@@ -3,8 +3,6 @@ package codingAssignments;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import java.util.Scanner;
-import java.util.Arrays;
 
 public class KaprekarConstant_6174 {
     public static void main(String[] args) {
@@ -85,15 +83,17 @@ public class KaprekarConstant_6174 {
 
 /*
 ============================================================================================
-
-"C:\Program Files\Java\jdk-11\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=65207:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\ammit\IdeaProjects\Assignments\out\production\Assignments codingAssignments.KaprekarConstant_6174
-Enter a four-digit number (with at least two different digits): 1459
-Step 1: 9541 - 1459 = 8082
-Step 2: 8820 - 0288 = 8532
+"C:\Program Files\Java\jdk-11\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=65321:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\ammit\IdeaProjects\Assignments\out\production\Assignments codingAssignments.KaprekarConstant_6174
+Enter a four-digit number (with at least two different digits): 0068
+Invalid input. Please enter a valid four-digit number: -4
+Invalid input. Please enter a valid four-digit number: 6534
+Step 1: 6543 - 3456 = 3087
+Step 2: 8730 - 0378 = 8352
 Step 3: 8532 - 2358 = 6174
 Kaprekar's constant (6174) reached in 3 steps.
 
 Process finished with exit code 0
+
 ============================================================================================
 
 "C:\Program Files\Java\jdk-11\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=65148:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\ammit\IdeaProjects\Assignments\out\production\Assignments codingAssignments.KaprekarConstant_6174
