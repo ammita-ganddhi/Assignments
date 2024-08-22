@@ -5,7 +5,8 @@ package InheritExamples;
 
 import java.util.Scanner;
 
-public class A extends B{
+public class
+A extends B{
     int student = 5;
     float total_expenditure = 0.0F;
 

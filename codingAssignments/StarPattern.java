@@ -42,6 +42,8 @@ public class StarPattern {
             }
             System.out.println();
         }
+        System.out.println("---------------Pattern 4 ---------------");
+
     }
 }
 
